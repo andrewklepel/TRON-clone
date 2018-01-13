@@ -1,0 +1,86 @@
+body {
+	background-color:black;
+	color:white;
+}
+
+.grid {
+	background-image:url('../images/gridbase.png');
+	
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: cyan;
+	clear: both;
+}
+
+.info-box {
+	font-size: 16px;
+	font-family: Consolas;
+	border: 5px solid cyan;
+	padding: 20px;
+	position: absolute;
+	left: 35%;
+	width: 30%;
+	top: 20%;
+  	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 3px 3px 20px cyan;
+}
+
+.control-group {
+	float: right;
+	clear: right;
+	padding-bottom: 5px;
+}
+
+.info-box input[type=text] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid cyan;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Consolas;
+}
+
+.info-box input[type=button] {
+	padding: 5px;
+    margin: 5px;
+    border: 1px solid cyan;
+    background-color: black;
+    color: white;
+	font-size: 16px;
+	font-family: Consolas;
+}
+
+.info-box input[type=button]:active {
+    background-color: white;
+    color: black;
+}
+
+.info-box input[type=range]{
+    -webkit-appearance: none;
+}
+
+.info-box input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 2px;
+    background: cyan;
+    margin-top: -8px;
+}
+
+.info-box input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid cyan;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: black;
+    margin-top: -8px;
+}
+
+.info-box input[type=range]:focus {
+    outline: none;
+}
